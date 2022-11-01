@@ -150,7 +150,7 @@ int main(int argc, char const *argv[]){
 
         imshow("object detector", img);
         // 15fps
-        if (waitKey(50) >= 0) break; 
+        if (waitKey(10) >= 0) break; 
     }    
     return 0;
 }
